@@ -5,7 +5,7 @@ namespace IntegracaoAPISandBox
 {
     public class Split
     {
-        public List<ClienteSplit> ClientesSplit { get; set; } = new List<ClienteSplit>();
+        public List<ClienteSplit> ClientesSplit { get; set; } 
 
         /// <summary>
         ///  A documentação está exibindo o retorno errado... 
