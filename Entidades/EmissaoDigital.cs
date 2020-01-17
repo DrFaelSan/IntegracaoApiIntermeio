@@ -1,8 +1,12 @@
-﻿namespace IntegracaoAPISandBox
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace IntegracaoAPISandBox.Entidades
 {
     public class EmissaoDigital
     {
-        public Sms Sms{ get; set; }
+        public Sms Sms { get; set; }
         public Email Email { get; set; }
     }
 
